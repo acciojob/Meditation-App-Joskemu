@@ -1,1 +1,62 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#app {
+    width: 80%;
+    text-align: center;
+}
+
+.vid-container {
+    margin-bottom: 20px;
+}
+
+.player-container {
+    margin-bottom: 20px;
+}
+
+.sound-picker {
+    margin-bottom: 20px;
+}
+
+#time-select {
+    margin-bottom: 20px;
+}
+
+#time-select button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#time-select button:hover {
+    background-color: #45a049;
+}
+
+.time-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.play {
+    padding: 15px 25px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.play:hover {
+    background-color: #e64a19;
+}
